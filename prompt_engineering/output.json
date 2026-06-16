@@ -1,0 +1,23 @@
+[
+  {
+    "output": "# One-Day Meal Plan for Early Morning 20km Run\n\nHere is a one-day meal plan for an athlete preparing for and recovering from a 20km early morning run:\n\n* **Calorie Target:** Approximately 2,800 calories\n* **Macronutrient Breakdown:** Protein (120g), Fat (80g), Carbs (380g)\n\n## Meal Plan:\n\n* **Pre-Run Snack (5:30 AM):** Banana (120g) with white bread (40g) and honey (15g).\n    * Protein: 3g, Fat: 1g, Carbs: 50g\n\n* **Post-Run Recovery Meal (7:30 AM):** Greek yogurt (200g, plain low-fat) with granola (50g), fresh berries (100g), and seeds (15g pumpkin seeds).\n    * Protein: 25g, Fat: 12g, Carbs: 65g\n\n* **Mid-Morning Snack (10:00 AM):** Orange juice (250g) with a vegetable frittata (2 eggs + 50g mushrooms + 50g spinach cooked in 10g olive oil).\n    * Protein: 18g, Fat: 15g, Carbs: 25g\n\n* **Lunch (1:00 PM):** Chickpea and vegetable curry with chickpeas (150g cooked), onion (80g), tomato (100g), spinach (100g), coconut milk (100g, light), and brown rice (80g cooked).\n    * Protein: 28g, Fat: 18g, Carbs: 85g\n\n* **Afternoon Snack (4:00 PM):** Whole wheat bread (60g) with hummus (40g) and sliced cucumber (100g) and tomato (80g).\n    * Protein: 10g, Fat: 8g, Carbs: 40g\n\n* **Dinner (7:00 PM):** Baked tofu (180g) with sweet potato (150g) and steamed broccoli (200g) drizzled with sesame oil (10g).\n    * Protein: 28g, Fat: 15g, Carbs: 85g\n\n* **Evening Snack (9:30 PM):** Low-fat cottage cheese (150g) with pineapple (80g).\n    * Protein: 18g, Fat: 1g, Carbs: 25g\n\nThis meal plan prioritizes easily digestible carbohydrates before and immediately after the run, complete proteins for muscle recovery, and whole grains for sustained energy throughout the day\u2014all while accommodating vegetarian and nut-free requirements.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "72 kg",
+        "goal": "Complete a 20km early morning run with optimal energy availability and post-run recovery nutrition",
+        "restrictions": "Vegetarian, no nuts"
+      },
+      "solution_criteria": [
+        "Includes pre-run meal (consumed 2-3 hours before early morning run) with easily digestible carbohydrates",
+        "Includes post-run recovery meal within 30-60 minutes with carbohydrates and protein",
+        "Daily calorie and macronutrient targets appropriate for marathon training with high carbohydrate emphasis",
+        "All meals are practical to prepare and consume within typical athlete time constraints"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a marathon runner requiring high-calorie, carbohydrate-dense meals with specific timing around training (early morning 20km run), to verify the meal plan optimizes energy availability, recovery nutrition, and practical food preparation within time constraints"
+    },
+    "score": 8,
+    "reasoning": "The solution successfully meets all three mandatory requirements with clear presentation of daily totals, macronutrient breakdown, and detailed meal specifications with portions and timing. The pre-run and post-run nutrition strategies are sound and address the core athletic needs. However, there is a minor timing issue with the pre-run meal (2 hours vs. 2-3 hours recommended) and the caloric target appears slightly conservative for the stated goal. These are secondary criterion issues that don't violate mandatory requirements but represent room for optimization. The meal plan is practical, respects all dietary restrictions (vegetarian, no nuts), and provides balanced nutrition throughout the day."
+  }
+]
