@@ -1,11 +1,14 @@
 [
-    {
-        "task": "Write a Python function that takes an AWS S3 bucket name and returns True if it's a valid bucket name according to AWS naming rules (3-63 characters, lowercase letters, numbers, and hyphens only, must start and end with letter or number)."
-    },
-    {
-        "task": "Create a JSON object that represents an AWS IAM policy allowing a principal to perform GetObject and PutObject actions only on S3 buckets with names starting with 'prod-'."
-    },
-    {
-        "task": "Write a regular expression that matches valid AWS EC2 security group IDs (format: sg- followed by 8 or 17 hexadecimal characters)."
-    }
+  {
+    "task": "Extract the AWS region from an S3 bucket ARN like 'arn:aws:s3:::my-bucket-us-east-1'",
+    "format": "regex"
+  },
+  {
+    "task": "Create a JSON IAM policy that allows read-only access to a specific S3 bucket",
+    "format": "json"
+  },
+  {
+    "task": "Write a Python function that validates if a given string is a valid AWS EC2 instance ID format (i-followed by 17 hexadecimal characters)",
+    "format": "python"
+  }
 ]
